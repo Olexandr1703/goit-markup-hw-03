@@ -17,6 +17,7 @@ body {
 }
 /* Base styles */
 .header-container {
+  justify-content: space-between;
   display: flex;
   align-items: center;
 }
@@ -32,6 +33,10 @@ body {
 .list-nav {
   display: flex;
   align-items: center;
+  gap: 40px;
+}
+.address-list {
+  gap: 40px;
 }
 
 .section {
@@ -132,6 +137,7 @@ button {
   letter-spacing: 0.03em;
   color: var(--logo-accent-cl);
   text-align: center;
+  margin-right: 76px;
 }
 .studio-black {
   font-family: "Raleway", sans-serif;
