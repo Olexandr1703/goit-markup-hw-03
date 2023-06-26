@@ -15,11 +15,58 @@ body {
   color: var(--main-black-cl);
   background-color: var(--our-team-bg);
 }
+/* Base styles */
+.section {
+}
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.hero-section-title {
+  width: 496px;
+  height: 472px;
+  padding-top: 188px;
+  padding-bottom: 292px;
+  text-align: center;
+}
+.hero-section {
+}
+
+.two-section {
+}
+
+.three-section {
+}
+
+.four-section {
+}
 /* Reset */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 link,
 ul,
 ol {
   list-style: none;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .link {
   text-decoration: none;
