@@ -16,6 +16,24 @@ body {
   background-color: var(--our-team-bg);
 }
 /* Base styles */
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.conacts {
+  display: flex;
+  align-items: center;
+}
+.list {
+  display: flex;
+  align-items: center;
+}
+
+.list-nav {
+  display: flex;
+  align-items: center;
+}
+
 .section {
 }
 .container {
@@ -26,6 +44,8 @@ body {
   padding-right: 15px;
 }
 .header {
+  display: flex;
+  align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -37,15 +57,26 @@ body {
   text-align: center;
 }
 .hero-section {
+  padding-bottom: 60px;
 }
 
 .two-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .three-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .four-section {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 /* Reset */
 h1,
@@ -80,6 +111,8 @@ button {
   cursor: pointer;
 }
 .header-nav {
+  display: flex;
+  align-items: center;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
