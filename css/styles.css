@@ -15,6 +15,9 @@ body {
   color: var(--main-black-cl);
   background-color: var(--our-team-bg);
 }
+img {
+  display: block;
+}
 /* Base styles */
 .header-container {
   justify-content: space-between;
@@ -38,7 +41,12 @@ body {
 .address-list {
   gap: 40px;
 }
-
+.two-section-item {
+  width: 264px;
+}
+.two-section-list {
+  gap: 24px;
+}
 .section {
 }
 .container {
@@ -212,6 +220,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-dark-cl);
+  padding-bottom: 8px;
 }
 .two-section-paragraph {
   font-family: "Roboto", sans-serif;
