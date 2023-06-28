@@ -17,6 +17,8 @@ body {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 /* Base styles */
 .header-container {
@@ -37,6 +39,7 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
+  text-align: center;
 }
 .address-list {
   gap: 40px;
@@ -45,7 +48,6 @@ img {
   width: 264px;
 }
 .two-section-list {
-  gap: 24px;
 }
 .section {
 }
@@ -66,7 +68,8 @@ img {
   width: 496px;
   height: 472px;
   padding-top: 188px;
-  padding-bottom: 292px;
+  padding-bottom: 48px;
+  margin: 0 auto;
   text-align: center;
 }
 .hero-section {
@@ -164,7 +167,6 @@ button {
 .navigation:focus {
   color: var(--title-accent-cl);
 }
-
 /* Conacts */
 .conacts {
   font-family: "Roboto", sans-serif;
@@ -207,7 +209,16 @@ button {
   color: var(--our-team-bg);
   background: var(--logo-accent-cl);
   cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  padding: 16px 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  min-height: 56px;
+  min-width: 169px;
+  border: none;
 }
+
 .hero-btn:hover,
 .hero-btn:focus {
   background: #404bbf;
@@ -289,6 +300,7 @@ button {
   background-color: var(--main-dark-cl);
 }
 .logo-text {
+  padding-right: 1240px;
 }
 .footer-info {
   font-family: "Roboto", sans-serif;
@@ -298,6 +310,11 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--cloud-cl);
+  display: flex;
+  width: 264px;
+  flex-direction: column;
+  flex-shrink: 0;
+  padding-top: 17.5px;
 }
 .studio-cloud {
   font-family: "Raleway", sans-serif;
