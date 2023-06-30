@@ -45,9 +45,12 @@ img {
   gap: 40px;
 }
 .two-section-item {
-  width: 264px;
 }
 .two-section-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
 }
 .section {
 }
@@ -253,6 +256,14 @@ button {
   color: var(--main-dark-cl);
   text-align: center;
 }
+.three-section-title {
+  padding-bottom: 72px;
+}
+.card-list-webstudio {
+}
+.card-item-webstudio {
+  padding-right: 24px;
+}
 .four-section-title {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -263,6 +274,10 @@ button {
   text-transform: capitalize;
   color: var(--main-dark-cl);
   text-align: center;
+}
+.four-section-title {
+  padding-bottom: 72px;
+  padding-top: 60px;
 }
 .four-section {
   background-color: var(--cloud-cl);
@@ -276,6 +291,12 @@ button {
   letter-spacing: 0.02em;
   color: var(--main-dark-cl);
 }
+.four-section-name {
+  padding-top: 32px;
+  padding-bottom: 8px;
+  text-align: center;
+  margin: 0 auto;
+}
 .four-section-team {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -285,8 +306,15 @@ button {
   letter-spacing: 0.02em;
   color: var(--main-black-cl);
 }
+.four-section-team {
+  padding-bottom: 32px;
+  text-align: center;
+  margin: 0 auto;
+}
 .our-team-list {
   background-color: var(--our-team-bg);
+  padding-right: 24px;
+  border-radius: 0px 0px 4px 4px;
 }
 .footer {
   font-family: "Raleway", sans-serif;
@@ -341,6 +369,21 @@ button {
 .portfolio-btn:focus {
   background-color: var(--title-accent-cl);
   color: var(--our-team-bg);
+}
+.portfolio-btn {
+}
+.portfolio-card {
+  flex-wrap: wrap;
+  gap: 24px 48px;
+}
+.portfolio-btn-list {
+  display: inline-flex;
+  align-items: flex-start;
+  padding-top: 96px;
+  padding-left: 427px;
+  padding-bottom: 72px;
+  gap: 24px;
+  text-align: center;
 }
 .services {
   font-family: "Roboto", sans-serif;
