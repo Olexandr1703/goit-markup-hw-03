@@ -10,8 +10,6 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--main-black-cl);
   background-color: var(--our-team-bg);
 }
@@ -130,17 +128,13 @@ button {
   cursor: pointer;
 }
 .header-nav {
-  display: flex;
-  align-items: center;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-dark-cl);
-  background: var(--our-team-bg);
-  text-transform: uppercase;
+  display: flex;
+  align-items: center;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -151,15 +145,10 @@ button {
   letter-spacing: 0.03em;
   color: var(--logo-accent-cl);
   text-align: center;
+  text-transform: uppercase;
   margin-right: 76px;
 }
 .studio-black {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
   color: var(--main-dark-cl);
 }
 /* Header-nav-list */
@@ -170,8 +159,22 @@ button {
 .navigation:focus {
   color: var(--title-accent-cl);
 }
+.navigation-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-dark-cl);
+}
 /* Conacts */
 .conacts {
+  font-style: normal;
+}
+.conacts-address:hover,
+.conacts-address:focus {
+  color: var(--title-accent-cl);
+}
+.conacts-address {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -180,11 +183,6 @@ button {
   letter-spacing: 0.02em;
   color: var(--main-black-cl);
 }
-.conacts-address:hover,
-.conacts-address:focus {
-  color: var(--title-accent-cl);
-}
-
 .hero-section {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -197,7 +195,7 @@ button {
 }
 .hero-section-title {
   font-size: 56px;
-  line-height: 1.07;
+  font-weight: 496px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
@@ -227,8 +225,6 @@ button {
   background: #404bbf;
 }
 .two-section-title {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -237,17 +233,12 @@ button {
   padding-bottom: 8px;
 }
 .two-section-paragraph {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-black-cl);
 }
 .three-section-title {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -283,8 +274,6 @@ button {
   background-color: var(--cloud-cl);
 }
 .four-section-name {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -298,9 +287,6 @@ button {
   margin: 0 auto;
 }
 .four-section-team {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -317,6 +303,9 @@ button {
   border-radius: 0px 0px 4px 4px;
 }
 .footer {
+  background-color: var(--main-dark-cl);
+}
+.logo-text {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -324,16 +313,10 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
-  background-color: var(--main-dark-cl);
-}
-.logo-text {
+  color: var(--logo-accent-cl);
   padding-right: 1240px;
 }
 .footer-info {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -345,13 +328,6 @@ button {
   padding-top: 17.5px;
 }
 .studio-cloud {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--cloud-cl);
 }
 .portfolio-btn {
@@ -392,8 +368,6 @@ button {
   text-align: center;
 }
 .services {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -406,9 +380,6 @@ button {
   padding-left: 16px;
 }
 .occupation {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
