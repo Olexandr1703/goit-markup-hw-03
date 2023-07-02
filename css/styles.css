@@ -5,6 +5,7 @@
   --logo-accent-cl: #4d5ae5;
   --title-accent-cl: #404bbf;
   --cloud-cl: #f4f4fd;
+  --header-border-cl: #e7e9fc;
 }
 /* Common styles */
 body {
@@ -64,6 +65,7 @@ img {
   align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px var(--header-border-cl);
 }
 .hero-section-title {
   width: 496px;
@@ -133,6 +135,7 @@ button {
   color: var(--main-dark-cl);
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
