@@ -298,10 +298,7 @@ button {
   color: var(--main-dark-cl);
 }
 .four-section-name {
-  padding-top: 32px;
   padding-bottom: 8px;
-  text-align: center;
-  margin: 0 auto;
 }
 .four-section-team {
   font-size: 16px;
@@ -309,8 +306,11 @@ button {
   letter-spacing: 0.02em;
   color: var(--main-black-cl);
 }
+.team-card-content {
+  text-align: center;
+  padding: 32px 16px;
+}
 .four-section-team {
-  padding-bottom: 32px;
   text-align: center;
   margin: 0 auto;
 }
