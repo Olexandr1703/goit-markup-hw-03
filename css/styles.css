@@ -166,11 +166,11 @@ button {
 .conacts {
   font-style: normal;
 }
-.conacts-address:hover,
-.conacts-address:focus {
+.contacts-address:hover,
+.contacts-address:focus {
   color: var(--title-accent-cl);
 }
-.conacts-address {
+.contacts-address {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
