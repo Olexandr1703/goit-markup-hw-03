@@ -59,11 +59,13 @@ img {
 }
 .two-section-list {
   display: flex;
-  gap: 24px 0;
-  padding: 120px 0;
+  gap: 24px;
+}
+.two-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .section {
-  padding-top: 96px;
   padding-bottom: 120px;
 }
 .container {
@@ -243,8 +245,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-dark-cl);
-  padding-bottom: 8px;
-  margin-right: 24px;
+  margin-bottom: 8px;
 }
 .two-section-paragraph {
   font-size: 16px;
