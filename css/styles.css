@@ -357,6 +357,7 @@ button {
 .portfolio-btn:focus {
   background-color: var(--title-accent-cl);
   color: var(--our-team-bg);
+  border: 1px solid transparent;
 }
 .portfolio-btn {
 }
