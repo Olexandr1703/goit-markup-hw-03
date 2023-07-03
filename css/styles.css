@@ -41,7 +41,10 @@ img {
   text-align: center;
 }
 .address-list {
+  display: flex;
   gap: 40px;
+  justify-content: flex-end;
+  align-items: center;
 }
 .two-section-item {
   width: calc((100% - 24 * 3) / 4);
@@ -128,6 +131,8 @@ button {
 .header-nav {
   display: flex;
   align-items: center;
+  max-width: 261px;
+  gap: 40px;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
