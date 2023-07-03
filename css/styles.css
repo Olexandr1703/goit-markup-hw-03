@@ -62,11 +62,8 @@ img {
   padding-right: 15px;
 }
 .header {
-  display: flex;
-  align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  border-bottom: 1px #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
+  background-color: var(--header-border-cl);
 }
 .hero-section-title {
   max-width: 496px;
@@ -129,11 +126,6 @@ button {
   cursor: pointer;
 }
 .header-nav {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--main-dark-cl);
   display: flex;
   align-items: center;
 }
@@ -148,6 +140,9 @@ button {
   text-align: center;
   text-transform: uppercase;
   margin-right: 76px;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .studio-black {
   color: var(--main-dark-cl);
@@ -183,6 +178,9 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-black-cl);
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .hero-section {
   font-family: "Roboto", sans-serif;
