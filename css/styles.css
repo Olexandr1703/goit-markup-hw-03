@@ -257,7 +257,8 @@ button {
   text-align: center;
 }
 .three-section-title {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
+  gap: 24px;
 }
 .card-list-webstudio {
   display: flex;
