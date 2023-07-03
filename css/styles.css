@@ -55,15 +55,14 @@ img {
   padding-bottom: 24px;
 }
 .two-section-item {
-  width: calc((100% - 24 * 3) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .two-section-list {
   display: flex;
   gap: 24px;
 }
 .two-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 .section {
   padding-bottom: 120px;
@@ -86,11 +85,6 @@ img {
   padding-bottom: 48px;
 }
 .hero-section {
-  padding-bottom: 60px;
-}
-
-.two-section {
-  padding-top: 60px;
   padding-bottom: 60px;
 }
 
