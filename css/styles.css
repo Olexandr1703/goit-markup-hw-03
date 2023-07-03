@@ -263,7 +263,6 @@ button {
 .card-list-webstudio {
   display: flex;
   flex-wrap: wrap;
-  gap: 0 24px;
 }
 .card-item-webstudio {
   width: calc((100% - 24px * 2) / 3);
