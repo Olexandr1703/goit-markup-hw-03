@@ -33,7 +33,7 @@ img {
   display: flex;
   align-items: center;
 }
-.navigation link {
+.navigation {
   display: block;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -43,12 +43,16 @@ img {
   align-items: center;
   gap: 40px;
   text-align: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .address-list {
   display: flex;
   gap: 40px;
   justify-content: flex-end;
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .two-section-item {
   width: calc((100% - 24 * 3) / 4);
