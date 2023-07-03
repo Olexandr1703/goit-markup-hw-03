@@ -284,11 +284,12 @@ button {
   text-align: center;
 }
 .four-section-title {
-  padding-bottom: 72px;
-  padding-top: 60px;
+  margin-bottom: 72px;
 }
 .four-section {
   background-color: var(--cloud-cl);
+  padding-top: 120px;
+  padding-top: 120px;
 }
 .four-section-name {
   font-weight: 500;
@@ -298,7 +299,7 @@ button {
   color: var(--main-dark-cl);
 }
 .four-section-name {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .four-section-team {
   font-size: 16px;
