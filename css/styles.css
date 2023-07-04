@@ -321,16 +321,10 @@ button {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  display: block;
+  display: inline-block;
   margin-bottom: 16px;
   text-transform: uppercase;
   color: var(--logo-accent-cl);
-  display: block;
-}
-
-.footer-link {
-  margin-bottom: 16px;
-  display: inline-block;
 }
 
 .footer-info {
