@@ -43,8 +43,6 @@ img {
   align-items: center;
   gap: 40px;
   text-align: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .address-list {
   display: flex;
@@ -68,11 +66,9 @@ img {
   padding-bottom: 120px;
 }
 .container {
-  width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -131,8 +127,6 @@ button {
 .header-nav {
   display: flex;
   align-items: center;
-  max-width: 261px;
-  gap: 40px;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -142,9 +136,10 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--logo-accent-cl);
-  text-align: center;
   text-transform: uppercase;
   margin-right: 76px;
+}
+.header-link {
   display: block;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -168,7 +163,7 @@ button {
   color: var(--main-dark-cl);
 }
 /* Conacts */
-.conacts {
+.contacts {
   font-style: normal;
 }
 .contacts-address:hover,
