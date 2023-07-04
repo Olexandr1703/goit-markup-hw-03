@@ -49,8 +49,6 @@ img {
   gap: 40px;
   justify-content: flex-end;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .two-section-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
@@ -161,6 +159,8 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-dark-cl);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 /* Conacts */
 .contacts {
@@ -321,9 +321,11 @@ button {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  display: block;
+  margin-bottom: 16px;
   text-transform: uppercase;
   color: var(--logo-accent-cl);
-  padding-right: 76px;
+  display: block;
 }
 
 .footer-link {
