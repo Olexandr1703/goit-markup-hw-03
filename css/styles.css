@@ -403,8 +403,8 @@ button {
 }
 .portfolio-page-card-content {
   padding: 32px 16px;
-  border-top: none;
   border: 1px solid var(--header-border-cl);
+  border-top: none;
 }
 .services {
   font-weight: 500;
